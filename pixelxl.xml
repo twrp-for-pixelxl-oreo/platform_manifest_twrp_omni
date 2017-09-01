@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="px" fetch="https://github.com/twrp-for-pixelxl-oreo/" />
+
+  <remove-project name="android_bootable_recovery" />
+  <remove-project name="android_system_core" />
+
+  <project path="device/google/marlin-kernel" name="device/google/marlin-kernel" groups="device,marlin" clone-depth="1" />
+  <project path="device/google/marlin" name="android_device_google_marlin" remote="px" revision="android-7.0" groups="device,marlin,sailfish" />
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="px" revision="oreo-mod" />
+  <project path="system/core" name="android_system_core" remote="px" revision="oreo-mod" />
+</manifest>
