@@ -9,4 +9,5 @@
   <project path="device/google/marlin" name="android_device_google_marlin" remote="px" revision="android-7.0" groups="device,marlin,sailfish" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="px" revision="oreo-mod" />
   <project path="system/core" name="android_system_core" remote="px" revision="oreo-mod" />
+  <project path="device/qcom/common" name="android_device_qcom_common" remote="px" revision="android-7.1" />
 </manifest>

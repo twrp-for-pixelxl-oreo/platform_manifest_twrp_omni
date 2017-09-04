@@ -75,7 +75,7 @@
   <remove-project name="android_system_media" />
   <remove-project name="android_system_vold" />
   <remove-project name="android_vendor_codeaurora_telephony" />
-  <remove-project name="device/common" />
+  <!--remove-project name="device/common" /-->
   <remove-project name="device/generic/arm64" />
   <remove-project name="device/generic/armv7-a-neon" />
   <remove-project name="device/generic/common" />
@@ -106,7 +106,7 @@
   <remove-project name="platform/external/avahi" />
   <remove-project name="platform/external/blktrace" />
   <remove-project name="platform/external/bsdiff" />
-  <remove-project name="platform/external/bzip2" />
+  <!--remove-project name="platform/external/bzip2" /-->
   <remove-project name="platform/external/c-ares" />
   <remove-project name="platform/external/caliper" />
   <remove-project name="platform/external/cblas" />
@@ -182,13 +182,13 @@
   <remove-project name="platform/external/kernel-headers" />
   <remove-project name="platform/external/ksoap2" />
   <remove-project name="platform/external/libavc" />
-  <remove-project name="platform/external/libbrillo" />
+  <!--remove-project name="platform/external/libbrillo" /-->
   <remove-project name="platform/external/libcap-ng" />
-  <remove-project name="platform/external/libchrome" />
+  <!--remove-project name="platform/external/libchrome" /-->
   <remove-project name="platform/external/libdaemon" />
   <remove-project name="platform/external/libdivsufsort" />
   <remove-project name="platform/external/libedit" />
-  <remove-project name="platform/external/libevent" />
+  <!--remove-project name="platform/external/libevent" /-->
   <remove-project name="platform/external/libgdx" />
   <remove-project name="platform/external/libgsm" />
   <remove-project name="platform/external/libhevc" />
@@ -220,7 +220,7 @@
   <remove-project name="platform/external/mockftpserver" />
   <remove-project name="platform/external/mockito" />
   <remove-project name="platform/external/mockwebserver" />
-  <remove-project name="platform/external/modp_b64" />
+  <!--remove-project name="platform/external/modp_b64" /-->
   <remove-project name="platform/external/mp4parser" />
   <remove-project name="platform/external/mtpd" />
   <remove-project name="platform/external/nanohttpd" />
@@ -311,10 +311,10 @@
   <remove-project name="platform/hardware/bsp/intel" />
   <remove-project name="platform/hardware/google/apf" />
   <remove-project name="platform/hardware/marvell/bt" />
-  <remove-project name="platform/hardware/qcom/bootctrl" />
+  <!--remove-project name="platform/hardware/qcom/bootctrl" /-->
   <remove-project name="platform/hardware/qcom/msm8960" />
   <remove-project name="platform/hardware/qcom/msm8994" />
-  <remove-project name="platform/hardware/qcom/msm8996" />
+  <!--remove-project name="platform/hardware/qcom/msm8996" /-->
   <remove-project name="platform/hardware/qcom/msm8x26" />
   <remove-project name="platform/hardware/qcom/msm8x27" />
   <remove-project name="platform/hardware/qcom/msm8x84" />
@@ -407,7 +407,7 @@
   <remove-project name="platform/system/nvram" />
   <remove-project name="platform/system/tools/aidl" />
   <remove-project name="platform/system/tpm" />
-  <remove-project name="platform/system/update_engine" />
+  <!--remove-project name="platform/system/update_engine" /-->
   <remove-project name="platform/system/weaved" />
   <remove-project name="platform/system/webservd" />
   <remove-project name="platform/tools/external/fat32lib" />
